@@ -1,9 +1,0 @@
-#!/bin/bash
-
-set -eo pipefail
-
-/usr/libexec/s2i/assemble
-
-echo "---> Building Ember application in $(pwd)"
-
-ember build -prod
